@@ -1,0 +1,32 @@
+namespace Mojo.Features.TemplatingEngines.XXX
+{
+    public struct ViewModelOptions
+    {
+    }
+
+    public class RenderTemplate : ITemplate<ViewModelOptions>
+    {
+        public string Render(ViewModelOptions options)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public string Render()
+        {
+            throw new System.NotImplementedException();
+        }
+    }
+
+    public class Engine : ITemplateEngine<ViewModelOptions>
+    {
+        public ITemplate<ViewModelOptions> Compile(string source)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void Setup()
+        {
+            throw new System.NotImplementedException();
+        }
+    }
+}
